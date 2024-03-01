@@ -4,7 +4,7 @@ import SettingsForm from './SettingsForm';
 import withTimer from './withTimer';
 import Tooltip from './Tooltip';
 
-// Пример использования HOC withTimer
+
 const TimerDisplay = withTimer(({ timeSpent }) => <div>Время на странице: {timeSpent}</div>);
 
 const App = () => {

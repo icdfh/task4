@@ -6,8 +6,8 @@ export const useSettings = () => useContext(SettingsContext);
 
 export const SettingsProvider = ({ children }) => {
   const [settings, setSettings] = useState({
-    theme: 'light', // Тема: 'light' или 'dark'
-    language: 'en', // Язык: 'en', 'ru' и т.д.
+    theme: 'light', 
+    language: 'en', 
   });
 
   const updateSettings = (newSettings) => setSettings((prev) => ({ ...prev, ...newSettings }));

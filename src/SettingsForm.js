@@ -18,7 +18,7 @@ const SettingsForm = () => {
         <select value={settings.language} onChange={(e) => updateSettings({ language: e.target.value })}>
           <option value="en">Английский</option>
           <option value="ru">Русский</option>
-          {/* Добавьте другие языки по желанию */}
+       
         </select>
       </div>
     </div>
